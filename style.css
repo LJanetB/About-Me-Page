@@ -35,12 +35,13 @@ button{
     background: #3882F6;
     border:none;
     border-radius: 4px;
+    color:antiquewhite;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 10px 15px;
 
 }
-.portrait{
-    height: 250px;
-    width: auto;
-}
+
 .middle{
     padding: 20px 200px;
     
@@ -68,6 +69,12 @@ button{
     max-width: 300px;
     text-align: center;
 }
+img, video{
+    width: auto;
+    height: 300px;
+    border-radius: 4px;
+}
+
 .quote{
     background-color: #E5E7EB;
     padding:50px 750px;
@@ -91,5 +98,27 @@ button{
     background-color: #3882F6;
     border: none;
     border-radius: 8px;
-    padding: 20px 50px;
+    padding: 20px 100px;
+    color: antiquewhite;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.contact{
+    font-size: 24px;
+    font-weight: 900;
+}
+.right-action{
+    border:#E5E7EB solid 2px;
+    border-radius: 6px;
+    align-self: center;
+    
+    
+}
+.footer{
+    background-color:#1F2937;
+    color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
