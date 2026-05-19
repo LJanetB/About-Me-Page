@@ -108,11 +108,20 @@ img, video{
     font-size: 24px;
     font-weight: 900;
 }
-.right-action{
+.button-link{
     border:#E5E7EB solid 2px;
     border-radius: 6px;
     align-self: center;
+    background: #3882F6;
+    color:antiquewhite;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 10px 15px;
+    text-decoration: none;
     
+}
+.button-link:hover{
+    background-color: darkblue;
     
 }
 .footer{
